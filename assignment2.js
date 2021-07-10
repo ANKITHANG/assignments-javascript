@@ -1,0 +1,23 @@
+k3=0
+k5=0
+for(let i=1;i<=100;i++){
+  s=""
+  k3++
+  k5++
+  if(k3==3)
+  {
+    s=s+"Fizz"
+    k3=0
+  }
+  if(k5==5)
+  {
+    s=s+"Buzz"
+    k5=0
+  }
+  if(s==""){
+    console.log(i)
+  }
+  else{
+    console.log(s)
+  }
+}
